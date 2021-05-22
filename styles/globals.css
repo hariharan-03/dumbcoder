@@ -1,16 +1,422 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+  }
+  .header{
+    min-height: 100vh;
+    width: 100%;
+    /* background: #000; */
+    background-image: url('/images/cool-background.png');
+    color:#fff;
+    position: relative;
+  }
+  .navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    font-family: 'Reggae One', cursive;
+    width: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10%;
+    z-index: 1;
+  }
+  .menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+  }
+  nav{
+    flex: 1;
+    text-align: right;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 17px;
+    transition: border-bottom .5s;
+  }
+  nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #36a1d4;
+    transition: width .3s;
+  }
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+  nav ul li a.active::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #36a1d4;
+  }
+  
+  .left-sidebar{
+    width:20%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top: 0;
+    background: #36a1d4;
+  }
+  .row{
+    padding:0 10%;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5%;
+  }
+  .left-col{
+    flex-basis: 40%;
+  }
+  
+  .right-col{
+    flex-basis: 55%;
+  }
+  .left-col img{
+    width:80%;
+    cursor: pointer;
+    filter: grayscale(0);
+    border-radius: 10px;
+    transition: filter 1s;
+  }
+  .left-col img:hover{
+    filter: grayscale(1);
+  }
+  .right-col h1{
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .right-col h3{
+    font-size: 30px;
+  }
+  .right-col span{
+    color: #36a1d4;
+  }
+  .right-col p{
+    color:#777;
+    margin:20px 0 70px;
+  }
+  .hiremebtn {
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .hiremebtn {
+    border-color: #36a1d4;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .hiremebtn:hover {
+    background-color: #36a1d4;
+    color: white;
+  }
+  
+  .social-media{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .icon{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform .5s;
+  }
+  .icon img{
+    width: 28px;
+  }
+  .icon a{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background: #36a1d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .icon a:hover{
+    opacity: 1;
+  }
+  .icon:hover{
+    transform: translateY(-5px);
+  }
+  /* ==============================skills screen========================================== */
+  
+  .bar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .skill-text{
+    text-align: center;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    width: 288px;
+    height: 391px;
+    margin-top: 56px;
+  }
+  .meter { 
+    height: 10px;
+    position: relative;
+    background: #f3efe6;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .meter span {
+    display: block;
+    height: 100%;
+  }
+  
+  .progress1 {
+    background-color: #36a1d4;
+    animation: progressBar1 3s ease-in-out;
+    animation-fill-mode:both; 
+  }
+  .progress2 {
+    background-color:#e96329;
+    animation: progressBar2 3s ease-in-out;
+    animation-fill-mode:both; 
+  }
+  .progress3 {
+    background-color: #31aed7;
+    animation: progressBar3 3s ease-in-out;
+    animation-fill-mode:both; 
+  }
+  .progress4 {
+    background-color: #ebd81c;
+    animation: progressBar4 3s ease-in-out;
+    animation-fill-mode:both; 
+  }
+  .progress5 {
+    background-color: #a8acb1;
+    animation: progressBar5 3s ease-in-out;
+    animation-fill-mode:both; 
+  }
+  .progress6 {
+    background-color: #dd8a00;
+    animation: progressBar6 3s ease-in-out;
+    animation-fill-mode:both; 
+  }
+  .progress7 {
+    background-color: #20293d;
+    animation: progressBar7 3s ease-in-out;
+    animation-fill-mode:both; 
+  }
+  
+  @keyframes progressBar1 {
+  0% { width: 0; }
+  100% { width: 70%; }
+  }
+  @keyframes progressBar2 {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes progressBar3 {
+    0% { width: 0; }
+    100% { width: 40%; }
+  }
+  @keyframes progressBar4 {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes progressBar5 {
+    0% { width: 0; }
+    100% { width: 35%; }
+  }
+  @keyframes progressBar6 {
+    0% { width: 0; }
+    100% { width: 25%; }
+  }
+  @keyframes progressBar7 {
+    0% { width: 0; }
+    100% { width: 75%; }
+  }
+  /* ======================================contact====================================== */
+  .form-cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .address p{
+    color: #fff;
+    font-size: 20px;
+  }
+  /* =====================================work========================================== */
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .cards{
+    width: 211px;
+    height: 182px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform .5s;
+  }
+  .cards img{
+    width: 75%;
+  }
+  .cards a{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background: #36a1d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .disabled{
+    width: 211px;
+    height: 182px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform .5s;
+  }
+  .disabled h6{
+    color:#000
+  }
+  .cards a:hover{
+    opacity: 1;
+  }
+  .cards:hover{
+    transform: translateY(-5px);
+  }
+  @media screen and (max-width:770px) {
+    .row{
+        flex-direction: column;
+    }
+    .left-sidebar{
+        display: none;
+    }
+    .left-col{
+        text-align: center;
+    }
+    .left-col img{
+        height: 212px;
+        width: 165px;
+  
+    }
+    .icon{
+        margin-right: 5px;
+    }
+    nav ul{
+        width:100%;
+        background: #36a1d4;
+        position: absolute;
+        top: 56px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        padding-right: 40PX;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    /* skills */
+    .bar-container{
+        margin: 0;
+    }
+    /* contact */
+    .address{
+        flex-direction: column;
+    }
+    /* work */
+    .cards{
+        margin-right: 0;
+    }
+    .disabled{
+        margin-right: 0;
+    }
+  }
+  
+  
+  
+  
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+  .my-node-enter {
+    opacity: 0;
+  }
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
+  .my-node-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
