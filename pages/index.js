@@ -27,6 +27,9 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Reggae+One&display=swap" rel="stylesheet" />
+                <meta property="og:title" content="Portfolio" />
+                <meta property="og:description" content="Personal portfolio for demonstrate my skills." />
+                <meta property="og:image" content="images/og-image.png" />
             </Head>
             <div class="header">
                 <div class="navbar">
