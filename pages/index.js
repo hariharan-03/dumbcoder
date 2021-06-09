@@ -30,6 +30,8 @@ export default function Home() {
                 <meta property="og:title" content="Portfolio" />
                 <meta property="og:description" content="Personal portfolio for demonstrate my skills." />
                 <meta property="og:image" content="images/og-image.png" />
+                <link rel="manifest" href="/manifest.json" />
+                <meta name="theme-color" content="#317EFB"/>
             </Head>
             <div class="header">
                 <div class="navbar">
