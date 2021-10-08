@@ -55,11 +55,11 @@ export default function Works() {
                             </div>
                             <div class="cards">
                                 <img src="images/chupshop.png" alt="fb" />
-                                <a href="https://play.google.com/store/apps/details?id=com.skycooking.chupsbusiness&hl=en_IN&gl=US" target="_blank"><img src="images/link.png" alt="lnk" /></a>
+                                <a href="http://admin.skycooking.com/" target="_blank"><img src="images/link.png" alt="lnk" /></a>
                             </div>
                             <div class="cards">
                                 <img src="images/skoruzai.jpg" alt="fb" />
-                                <a href="https://skoruz.ai/" target="_blank"><img src="images/link.png" alt="lnk" /></a>
+                                <a href="https://capton.com/" target="_blank"><img src="images/link.png" alt="lnk" /></a>
                             </div>
                             <div class="disabled">
                                 <h6>Loading..</h6>
