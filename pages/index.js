@@ -57,7 +57,7 @@ export default function Home() {
                         <h3>Software Engineer.</h3>
                         <p>I have been in website Development industry from past 1.5
                     years and have worked with React js and multiple front-end libraries.</p>
-                        <button type="button" class="hiremebtn" onClick={() => { window.open("/Hariharan Ravichandran.pdf") }}>Hire me</button>
+                        <button type="button" class="hiremebtn" onClick={() => { window.open("/hari_resume.pdf") }}>Hire me</button>
                         <div class="social-media">
                             <div class="icon">
                                 <img src="images/linkedin.png" alt="fb" />
