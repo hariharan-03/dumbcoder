@@ -65,11 +65,11 @@ export default function Skills() {
                             <div class="meter">
                                 <span style={{ width: '100%' }}><span class="progress4"></span></span>
                             </div>
-                            <h2>Express</h2>
+                            <h2>JQuery</h2>
                             <div class="meter">
                                 <span style={{ width: '100%' }}><span class="progress5"></span></span>
                             </div>
-                            <h2>mySql</h2>
+                            <h2>Next js</h2>
                             <div class="meter">
                                 <span style={{ width: '100%' }}><span class="progress6"></span></span>
                             </div>
