@@ -225,12 +225,12 @@
     animation-fill-mode:both; 
   }
   .progress5 {
-    background-color: #a8acb1;
+    background-color: #0865a7;
     animation: progressBar5 3s ease-in-out;
     animation-fill-mode:both; 
   }
   .progress6 {
-    background-color: #dd8a00;
+    background-color: #e4e4e4;
     animation: progressBar6 3s ease-in-out;
     animation-fill-mode:both; 
   }
@@ -258,11 +258,11 @@
   }
   @keyframes progressBar5 {
     0% { width: 0; }
-    100% { width: 35%; }
+    100% { width: 90%; }
   }
   @keyframes progressBar6 {
     0% { width: 0; }
-    100% { width: 25%; }
+    100% { width: 90%; }
   }
   @keyframes progressBar7 {
     0% { width: 0; }
