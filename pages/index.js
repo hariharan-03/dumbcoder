@@ -68,11 +68,11 @@ export default function Home() {
                                 <a href="https://github.com/hariharan-03" target="_blank"><img src="images/link.png"
                                     alt="lnk" /></a>
                             </div>
-                            <div class="icon">
-                                <img src="images/instagram.png" alt="fb" />
-                                <a href="https://www.instagram.com/dumb.apk/" target="_blank"><img src="images/link.png"
-                                    alt="lnk" /></a>
-                            </div>
+//                             <div class="icon">
+//                                 <img src="images/instagram.png" alt="fb" />
+//                                 <a href="https://www.instagram.com/dumb.apk/" target="_blank"><img src="images/link.png"
+//                                     alt="lnk" /></a>
+//                             </div>
                             <div class="icon">
                                 <img src="images/indeed.jpg" alt="fb" />
                                 <a href="https://my.indeed.com/p/hariharanr-i2slohr" target="_blank"><img src="images/link.png"
