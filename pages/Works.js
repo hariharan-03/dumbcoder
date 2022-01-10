@@ -63,7 +63,7 @@ export default function Works() {
                             </div>
                             <div class="cards">
                                 {/*<h6>Loading..</h6>*/}
-                                <img src="images/download.jpg" alt="fb" />
+                                <img src="images/download.png" alt="fb" />
                                 <a href="https://trueconnectdemo/"><img src="images/link.png" alt="lnk" /></a>
                             </div>
                         </div>
