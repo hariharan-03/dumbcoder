@@ -61,9 +61,10 @@ export default function Works() {
                                 <img src="images/skoruzai.jpg" alt="fb" />
                                 <a href="https://capton.com/" target="_blank"><img src="images/link.png" alt="lnk" /></a>
                             </div>
-                            <div class="disabled">
-                                <h6>Loading..</h6>
-                                <a href="#"><img src="images/link.png" alt="lnk" /></a>
+                            <div class="cards">
+                                {/*<h6>Loading..</h6>*/}
+                                <img src="images/download.jpg" alt="fb" />
+                                <a href="https://trueconnectdemo/"><img src="images/download.png" alt="lnk" /></a>
                             </div>
                         </div>
                     </div>
