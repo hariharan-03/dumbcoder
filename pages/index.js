@@ -56,7 +56,7 @@ export default function Home() {
                         <h1>I'm <span>Hariharan</span> </h1>
                         <h3>Software Engineer.</h3>
                         <p>A passionate Web Developer having an experience of 1.11 years in building Web applications with JavaScript / Reactjs / Nextjs / plotlyjs and some other cool libraries and frameworks.</p>
-                        <button type="button" class="hiremebtn" onClick={() => { window.open("/hari_resume11.pdf") }}>Hire me</button>
+                        <button type="button" class="hiremebtn" onClick={() => { window.open("/Hariharan resume.pdf") }}>Hire me</button>
                         <div class="social-media">
                             <div class="icon">
                                 <img src="images/linkedin.png" alt="fb" />
