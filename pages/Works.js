@@ -63,7 +63,12 @@ export default function Works() {
                             </div>
                             <div class="cards">
                                 {/*<h6>Loading..</h6>*/}
-                                <img src="images/download.png" alt="fb" />
+                                <img src="images/Logo.png" alt="laslesVPN" />
+                                <a href="https://dumbs-lasles-vpn.vercel.app/" target="_blank"><img src="images/link.png" alt="lnk" /></a>
+                            </div>
+                            <div class="cards">
+                                {/*<h6>Loading..</h6>*/}
+                                <img src="images/multiform.png" alt="multiform" />
                                 <a href="https://trueconnectdemo.vercel.app/" target="_blank"><img src="images/link.png" alt="lnk" /></a>
                             </div>
                         </div>
