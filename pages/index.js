@@ -18,6 +18,17 @@ export default function Home() {
             menuList.style.maxHeight = "0px";
         }
     }
+    const handleOpen = () =>{
+        if (navigator.share) {
+  navigator.share({
+    title: 'web.dev',
+    text: 'Check out web.dev.',
+    url: 'https://web.dev/',
+  })
+    .then(() => console.log('Successful share'))
+    .catch((error) => console.log('Error sharing', error));
+}
+    }
     return (
 
         <div>
@@ -54,7 +65,7 @@ export default function Home() {
                     </div>
                     <div class="right-col">
                         <h1>I'm <span>Hariharan</span> </h1>
-                        <h3>Software Engineer.</h3>
+                        <h3 onClick={()=>{handleOpen()}}>Software Engineer.</h3>
                         <p>A passionate Web Developer having an experience of 2+ years in building Web applications with JavaScript / Reactjs / Nextjs / plotlyjs and some other cool libraries and frameworks.</p>
                         <button type="button" class="hiremebtn" onClick={() => { window.open("/Hariharan resume.pdf") }}>Hire me</button>
                         <div class="social-media">
