@@ -71,6 +71,11 @@ export default function Works() {
                                 <img src="images/multiform.png" alt="multiform" />
                                 <a href="https://trueconnectdemo.vercel.app/" target="_blank"><img src="images/link.png" alt="lnk" /></a>
                             </div>
+                                <div class="cards">
+                                {/*<h6>Loading..</h6>*/}
+                                <img src="images/laceholder-image.png" alt="multiform" />
+                                <a href="https://dotpay.vercel.app/" target="_blank"><img src="images/link.png" alt="lnk" /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
