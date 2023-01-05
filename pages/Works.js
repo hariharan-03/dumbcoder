@@ -78,7 +78,7 @@ export default function Works() {
                             </div>
                             <div class="cards">
                                 {/*<h6>Loading..</h6>*/}
-                                <img src="images/two-leaves.jpg" alt="multiform" />
+                                <img src="images/two-leaves.png" alt="multiform" />
                                 <a href="https://leaflearning.vercel.app/" target="_blank"><img src="images/link.png" alt="lnk" /></a>
                             </div>
                         </div>
