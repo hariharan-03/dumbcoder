@@ -61,7 +61,7 @@ export default function Home() {
                 <div class="left-sidebar"></div>
                 <div class="row">
                     <div class="left-col">
-                        <img src="images/IMG2023081319025.png" alt="prof" />
+                        <img src="images/IMG20230813190254.png" alt="prof" />
                     </div>
                     <div class="right-col">
                         <h1>I'm <span>Hariharan</span> </h1>
